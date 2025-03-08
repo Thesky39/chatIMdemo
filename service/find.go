@@ -71,6 +71,7 @@ func AppendAndSort(resultMe, resultYou []ws.Trainer) (results []ws.Result, err e
 			From:      "you",
 		}
 		results = append(results, result)
+
 	}
 	return
 }
